@@ -1,14 +1,15 @@
 #include <iostream>
-using <std>
+
+using namespace std;
 
 int main(int argc, char **argv) {
 	char asdf[20];
 
-	std::cout << "Hello World!" << std::endl;
-	std::cout << "i like to live dangerously\n";
+	cout << "Hello World!" << endl;
+	cout << "i like to live dangerously\n";
 
-	std::cin >> asdf;
-	std::cout << asdf << "\n";
+	cin >> asdf;
+	cout << asdf << "\n";
 
 	return 0;
 }
